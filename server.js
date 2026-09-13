@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(
     cors({
         origin: [
-            "http://sk-health-care.netlify.app"
+            "https://sk-health-care.netlify.app"
         ]
     })
 );
